@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+
+      <h1>Конвертер валют</h1>
+      <p> Джерело: 
+        <select name="" class="data-source">
+          <option value="">Курс НБУ</option>
+        </select>
+      </p>
+      <div class="container">
+        <p>У мене є:</p>
+        <p>Я отримую:</p>
+
+      <div class="box">
+        <div class="block" id="left-block">
+        <input type="number" class="input">
+        <select name="" id="select">
+ 
+        </select>
+        <div class="field">
+          <h3 class="course-style course-rate" data-value="currency"></h3>
+        </div>
+      </div>
+
+      <div class="block" id="right-block">
+        <input type="number" class="final">
+        <select name="" id="finalSelection">
+          <option value="UAH">UAH</option>
+        </select>
+        <div class="field">
+          <h3 class="course-style course-uah" data-value="rateUah"></h3>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <button class="button-switch"> </button>
+   
+
+    <script src="/script.js"></script>
+  </body>
+</html>
